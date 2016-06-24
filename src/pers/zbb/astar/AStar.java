@@ -220,8 +220,8 @@ public class AStar {
      * 输出： 当前位置到目的位置的距离
      */
     private int getDistance(int current_x, int current_y, int goal_x, int goal_y) {
-        return Math.abs(current_x - goal.getX())
-                + Math.abs(current_y - goal.getY());
+        return Math.abs(current_x - goal_x)
+                + Math.abs(current_y - goal_y);
     }
 
     /*
